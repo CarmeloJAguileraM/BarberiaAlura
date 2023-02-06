@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #403b4a, #e7e9bb);
+}
+
+header{
+    background: linear-gradient(90deg, #403b4a, #e7e9bb);
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 0px;
+    
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+form{
+    margin: auto;
+    margin-left: 33%;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{ 
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    background-color: rgb(214, 209, 209)
+    
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+   
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.preferencia{
+    margin-left: 5%;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #BBBBBB;
+}
+
+table{
+    margin: 40px 40px 20px;
+    margin-left: 33%;
+    }
+    
+thead{
+    background: #555555;
+    color: white;
+    font-weight: black;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;  
+}
+
+th {
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    
+}
+
+.simbolo{
+    width: 20%;
+    margin-left: 50%;
+}
+
+#code {
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.buttons {
+  font-size: 30px;
+} 
+
+legend {
+    padding: 5px;
+    font-weight: bold;    
+}
+
+ 
